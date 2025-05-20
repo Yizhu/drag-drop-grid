@@ -175,7 +175,6 @@ export default function Layout(props: LayoutProps) {
           {s.hasTab ? (
             <Tabs
               type="card"
-              // stickyTop={false}
               defaultActiveKey={
                 groups.find((g) => g.sectionId === s.id && g.defaultTab)
                   ?.tabValue

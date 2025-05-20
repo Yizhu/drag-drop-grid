@@ -19,19 +19,16 @@ export const Wrapper = styled.div`
 animation: fadeIn 0.1s linear 0s both;
 position: fixed; /* Stay in place */
 z-index: 101; /* Sit on top */
-// padding-top: 100px; /* Location of the box */
 left: 0;
 top: 0;
 width: 100%; /* Full width */
 height: 100%; /* Full height */
 overflow: auto; /* Enable scroll if needed */
 background-color: transparent;
-// border-top: 75px solid rgba(255,255,255, 0.4);
 
 .chat {
   position: fixed;
   width: 350px;
-  // top: 60px;
   z-index: 2;
   .header {
     border: 1px solid #E5E5E5;
@@ -60,10 +57,10 @@ background-color: transparent;
     background-color: #fefefe;
     background-image: url(${ChatBackground});
     background-repeat: no-repeat;
+    background-size: 120%;
     height: 100vh;
     width: 350px;
     position: fixed;
-    // top: 60px;
     overflow: auto;
     .widgets {
       width: 300px;
@@ -124,8 +121,7 @@ background-color: transparent;
         color: #000;
       }
       .chat-bubble {
-        background: linear-gradient(275deg, #F7B605 -53.69%, #F79B06 -13.58%, 
-          #F65650 26.53%, #EC4C9A 66.65%, #A560FF 106.76%);
+        background: linear-gradient(to left top, rgb(34, 225, 255), rgb(29, 143, 225), rgb(98, 94, 177));
         color: #fff;
         width: fit-content;
         max-width: 80%;

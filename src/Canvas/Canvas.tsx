@@ -128,9 +128,6 @@ export default function Canvas() {
           <span>Canvas</span>
         </div>
         <div className="actions">
-          {/* <Button role='primary' onClick={()=>{onClose()}}>
-            {$t({ defaultMessage: 'Publish' })}
-          </Button> */}
           {/* eslint-disable-next-line */}
           <Button
             type="primary"

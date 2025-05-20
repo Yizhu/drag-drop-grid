@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction, useEffect } from "react";
-
+import { Button } from "antd";
 import _ from "lodash";
 import { ConnectDragSource, useDrag } from "react-dnd";
 import { getEmptyImage } from "react-dnd-html5-backend";
@@ -147,37 +147,37 @@ function Card(props: CardProps) {
               zIndex: 1,
             }}
           >
-            <b>{id}</b>
-            <button
-              style={{ height: "30px", marginLeft: "10px" }}
+            <Button
+              // style={{ height: "30px", marginLeft: "10px" }}
               onClick={() => {
                 deleteCard(id, groupIndex);
               }}
             >
               Delete
-            </button>
+            </Button>
             {card.sizes && (
-              <button
-                style={{ height: "30px", width: "30px", marginLeft: "10px" }}
+              <Button
+                // style={{ height: "30px", width: "30px", marginLeft: "10px" }}
                 disabled={card.currentSizeIndex + 1 >= card.sizes?.length}
                 onClick={() => {
                   increaseCard();
                 }}
               >
                 +
-              </button>
+              </Button>
             )}
             {card.sizes && (
-              <button
-                style={{ height: "30px", width: "30px", marginLeft: "10px" }}
+              <Button
+                // style={{ height: "30px", width: "30px", marginLeft: "10px" }}
                 disabled={card.currentSizeIndex <= 0}
                 onClick={() => {
                   decreaseCard();
                 }}
               >
                 -
-              </button>
+              </Button>
             )}
+             <b>{id}</b>
           </div>
           {card.chartType && (
             <WidgetChart data={card as unknown as WidgetListData} />

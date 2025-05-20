@@ -5,9 +5,7 @@ import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import { v4 as uuidv4 } from "uuid";
 
-// import SendMessageOutlined from './assets/SendMessageOutlined.svg'
 import { ChatMessage, AiChat, WidgetListData } from "./utils/type";
-// import { useNavigate }                                 from 'react-router-dom'
 
 import Canvas from "./Canvas";
 import { DraggableChart } from "./components/WidgetChart";
@@ -21,7 +19,6 @@ export default function AICanvas() {
   const [widgets, setWidgets] = useState([] as WidgetListData[]);
 
   const [searchText, setSearchText] = useState("");
-  // const linkToDashboard = useTenantLink('/dashboard')
   const placeholder = `Looking for answers or need help? Type your message—I’m ready when you are.`;
 
   const onKeyDown = (event: React.KeyboardEvent) => {
@@ -41,12 +38,6 @@ export default function AICanvas() {
     setChats([...chats, newMessage]);
     setLoading(true);
     setSearchText("");
-    // const response = await chatAi({
-    //   payload: {
-    //     question,
-    //     ...(sessionId && { sessionId })
-    //   }
-    // }).unwrap()
     const response: AiChat = {
       sessionId: "001",
       messages: [
@@ -89,9 +80,6 @@ export default function AICanvas() {
     }, 1000);
   };
 
-  // const onClose = () => {
-  // navigate(linkToDashboard)
-  // }
 
   const Message = (props: { chat: ChatMessage }) => {
     const { chat } = props;

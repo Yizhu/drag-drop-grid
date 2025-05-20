@@ -135,7 +135,6 @@ export const WidgetChart: React.FC<WidgetListProps> = ({ data }) => {
       <Card key={data.id} title={data.title || "Chart"}>
         <AutoSizer>
           {({ height, width }) => {
-            console.log("height", height, "width", width);
             return <PieChart style={{ width, height }} data={chartData} />;
           }}
         </AutoSizer>
