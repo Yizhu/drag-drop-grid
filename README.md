@@ -27,7 +27,7 @@ Coming soon...
 ```bash
 npm install
 npm start
-
+```
 
 ## 📄 License
 This project is licensed for **personal and non-commercial use** only.  
