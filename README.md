@@ -15,7 +15,7 @@ Supports multiple groups, card resizing, and responsive flow layout.
   Responsive layout that wraps and adjusts automatically.
 
 ## 🚀 Live Demo  
-Coming soon...
+👉 https://yizhu.github.io/drag-drop-grid
 
 ## 🛠️ Tech Stack
 - ⚛️ React
