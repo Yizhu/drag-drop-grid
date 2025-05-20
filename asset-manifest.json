@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/drag-drop-grid/static/css/main.e7ba37a2.chunk.css",
+    "main.js": "/drag-drop-grid/static/js/main.22662e1a.chunk.js",
+    "main.js.map": "/drag-drop-grid/static/js/main.22662e1a.chunk.js.map",
+    "runtime~main.js": "/drag-drop-grid/static/js/runtime~main.feeb6c1d.js",
+    "runtime~main.js.map": "/drag-drop-grid/static/js/runtime~main.feeb6c1d.js.map",
+    "static/css/2.7ca93def.chunk.css": "/drag-drop-grid/static/css/2.7ca93def.chunk.css",
+    "static/js/2.5223cb62.chunk.js": "/drag-drop-grid/static/js/2.5223cb62.chunk.js",
+    "static/js/2.5223cb62.chunk.js.map": "/drag-drop-grid/static/js/2.5223cb62.chunk.js.map",
+    "static/js/3.ca0aac80.chunk.js": "/drag-drop-grid/static/js/3.ca0aac80.chunk.js",
+    "static/js/3.ca0aac80.chunk.js.map": "/drag-drop-grid/static/js/3.ca0aac80.chunk.js.map",
+    "index.html": "/drag-drop-grid/index.html",
+    "precache-manifest.406ee50cd3155e9c44d2b35e14be9c5f.js": "/drag-drop-grid/precache-manifest.406ee50cd3155e9c44d2b35e14be9c5f.js",
+    "service-worker.js": "/drag-drop-grid/service-worker.js",
+    "static/css/2.7ca93def.chunk.css.map": "/drag-drop-grid/static/css/2.7ca93def.chunk.css.map",
+    "static/css/main.e7ba37a2.chunk.css.map": "/drag-drop-grid/static/css/main.e7ba37a2.chunk.css.map",
+    "static/media/chats.png": "/drag-drop-grid/static/media/chats.062ecb77.png"
+  }
+}
