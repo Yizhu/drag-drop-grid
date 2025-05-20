@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import { IntlProvider }              from 'react-intl'
 import './index.css';
-import App from './App';
+// import App from './App';
+import Canvas from './Canvas'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <IntlProvider locale='en'> */}
+      <Canvas />
+    {/* </IntlProvider> */}
   </React.StrictMode>
 );
 
