@@ -5,22 +5,22 @@ Supports multiple groups, card resizing, and responsive flow layout.
 
 ## ✨ Features
 
-- 🧩 **Multiple Groups**  
+- **Multiple Groups**  
   Grouped cards with independent drag contexts.
 
-- 🔲 **Resizable Cards**  
+- **Resizable Cards**  
   Dynamically adjust card sizes within the grid.
 
-- 🌐 **Flow Layout**  
+- **Flow Layout**  
   Responsive layout that wraps and adjusts automatically.
 
 ## 🚀 Live Demo  
-👉 https://yizhu.github.io/drag-drop-grid
+- https://yizhu.github.io/drag-drop-grid
 
 ## 🛠️ Tech Stack
-- ⚛️ React
-- 🧠 [react-dnd](https://react-dnd.github.io/react-dnd/about)
-- 🧰 TypeScript
+- React
+- [react-dnd](https://react-dnd.github.io/react-dnd/about)
+- TypeScript
 
 ## 📦 Getting Started
 

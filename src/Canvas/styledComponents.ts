@@ -194,7 +194,6 @@ export const CardWrapper = styled.div`
 export const Canvas = styled.div`
   position: fixed;
   width: calc(100vw - 350px);
-  // top: 60px;
   z-index: 2;
   left: 350px;
   .header {
@@ -221,7 +220,6 @@ export const Canvas = styled.div`
     }
   }
   .grid {
-    // background-color: #D4D4D4;
     background-image: url(${CanvasBackground});
     border-left: 1px solid #E5E5E5;
     height: calc(100vh - 60px);
@@ -230,23 +228,24 @@ export const Canvas = styled.div`
 `
 
 export const Grid = styled.div`
-.rglb_group-item {
+.canvas-group-item {
   width: 100%;
   margin-bottom: 30px;
   cursor: move;
   position: relative;
   transition: all 0.2s ease-out;
 }
-.rglb_group-item .group-item-container {
+.canvas-group-item .group-item-container {
   padding: 20px;
 }
-.rglb_group-item .group-item-container #card-container .card-shadow {
-  background: rgba(15, 15, 15, 0.3);
+.canvas-group-item .group-item-container #card-container .card-shadow {
+  background: rgba(24, 144, 255, 0.15);
+  border: 1px dashed #7ecafd;
   position: absolute;
   border-radius: 3px;
   transition: all 0.2s ease-out;
 }
-.rglb_group-item .group-item-container #card-container .card {
+.canvas-group-item .group-item-container #card-container .card {
   position: absolute;
   transition: all 0.2s ease-out;
   .card-actions{
@@ -256,7 +255,7 @@ export const Grid = styled.div`
     display: block;
   }
 }
-.rglb_group-item .group-item-container #card-container .card .card-footer {
+.canvas-group-item .group-item-container #card-container .card .card-footer {
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -266,7 +265,7 @@ export const Grid = styled.div`
   bottom: 0;
   background: #f2f2f2;
 }
-.rglb_group-item
+.canvas-group-item
   .group-item-container
   #card-container
   .card

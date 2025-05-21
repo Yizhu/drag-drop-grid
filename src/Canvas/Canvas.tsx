@@ -7,7 +7,7 @@ import { Button } from "antd";
 import Layout from "./components/Layout";
 import * as UI from "./styledComponents";
 
-// import mockData from './mock'
+import mockData from './mock'
 
 const compactType = "horizontal";
 
@@ -44,7 +44,7 @@ export interface Group {
   type: string;
   cards: CardInfo[];
   index?: number;
-  defaultTab?: string;
+  defaultTab?: boolean;
   tabValue?: string;
   tabLabel?: string;
 }
@@ -82,24 +82,24 @@ const DEFAULT_CANVAS = [
 ] as unknown as Section[];
 
 export default function Canvas() {
-  // const [widgets, setWidgets] = useState([])
   const [groups, setGroups] = useState([] as Group[]);
   const [sections, setSections] = useState([] as Section[]);
 
   useEffect(() => {
     const data = getFromLS();
-    setSections(data);
+    setSections(data as Section[]);
     const group = data.reduce(
+      //@ts-ignore
       (acc: Section[], cur: Section) => [...acc, ...cur.groups],
       []
     );
-    setGroups(group);
+    setGroups(group as unknown as Group[]);
   }, []);
 
   const getFromLS = () => {
     let ls = localStorage.getItem("ui-canvas")
       ? JSON.parse(localStorage.getItem("ui-canvas") || "")
-      : DEFAULT_CANVAS; // mockData
+      : mockData; // DEFAULT_CANVAS
     return ls;
   };
 

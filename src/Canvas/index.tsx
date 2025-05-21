@@ -12,7 +12,6 @@ import { DraggableChart } from "./components/WidgetChart";
 import * as UI from "./styledComponents";
 
 export default function AICanvas() {
-  // const navigate = useNavigate()
   const [loading, setLoading] = useState(false);
   const [sessionId, setSessionId] = useState("");
   const [chats, setChats] = useState([] as ChatMessage[]);

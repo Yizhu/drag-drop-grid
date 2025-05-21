@@ -92,7 +92,7 @@ export default function GroupItem(props: GroupProps) {
   });
 
   return (
-    <div className="rglb_group-item" ref={dropRef} id={"group" + id}>
+    <div className="canvas-group-item" ref={dropRef} id={"group" + id}>
       <div
         className="group-item-container"
       >
