@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/drag-drop-grid/precache-manifest.406ee50cd3155e9c44d2b35e14be9c5f.js"
+  "/drag-drop-grid/precache-manifest.c27097a1b1ebfa2a6239a21e3bea2e49.js"
 );
 
 self.addEventListener('message', (event) => {

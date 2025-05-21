@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "527f61b6ac5d14d2c7e5672b43222877",
+    "revision": "428e71f948900ee19c0b164dea5c308e",
     "url": "/drag-drop-grid/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/drag-drop-grid/static/css/2.7ca93def.chunk.css"
   },
   {
-    "revision": "7d9acf49be19bfde0267",
+    "revision": "13895da57b9ba84ed565",
     "url": "/drag-drop-grid/static/css/main.e7ba37a2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/drag-drop-grid/static/js/3.ca0aac80.chunk.js"
   },
   {
-    "revision": "7d9acf49be19bfde0267",
-    "url": "/drag-drop-grid/static/js/main.22662e1a.chunk.js"
+    "revision": "13895da57b9ba84ed565",
+    "url": "/drag-drop-grid/static/js/main.de32717a.chunk.js"
   },
   {
     "revision": "e0c53ac7fecb2a37a63c",
