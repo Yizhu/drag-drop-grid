@@ -1,10 +1,8 @@
 # 🧱 React Drag and Drop Grid
-
-A flexible drag-and-drop grid system built with React.  
-Supports multiple groups, card resizing, and responsive flow layout.
+A flexible drag-and-drop grid system built with React and TypeScript.  
+Supports multiple groups, resizable cards, and a responsive flow layout.
 
 ## ✨ Features
-
 - **Multiple Groups**  
   Grouped cards with independent drag contexts.
 
@@ -12,18 +10,20 @@ Supports multiple groups, card resizing, and responsive flow layout.
   Dynamically adjust card sizes within the grid.
 
 - **Flow Layout**  
-  Responsive layout that wraps and adjusts automatically.
+  Automatically wraps and reflows cards based on available space.
 
-## 🚀 Live Demo  
-- https://yizhu.github.io/drag-drop-grid
+## 🎬 Demo
+![Demo](./public/demo.gif)
 
-## 🛠️ Tech Stack
+## 🚀 Live Preview  
+ 🔗 [yizhu.github.io/drag-drop-grid](https://yizhu.github.io/drag-drop-grid)
+
+## 🛠 Tech Stack
 - React
 - [react-dnd](https://react-dnd.github.io/react-dnd/about)
 - TypeScript
 
 ## 📦 Getting Started
-
 ```bash
 npm install
 npm start
